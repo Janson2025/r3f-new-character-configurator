@@ -12,7 +12,7 @@ function App() {
         <color attach="background" args={['#333333']} />
         <OrbitControls />
         <mesh>
-          <boxGeometry args={[0.5, 0.5, 0.5]}/>
+          <sphereGeometry args={[0.5, 0.5, 0.5]}/>
           <meshNormalMaterial />
         </mesh>
       </Canvas>
