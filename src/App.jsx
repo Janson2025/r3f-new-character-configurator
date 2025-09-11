@@ -9,10 +9,10 @@ function App() {
             position: [-4, 3, 6]
           }}
         >
-        <color attach="background" args={['#333333']} />
+        <color attach="background" args={['#f0f0f0']} />
         <OrbitControls />
         <mesh>
-          <sphereGeometry args={[0.5, 0.5, 0.5]}/>
+          <boxGeometry args={[0.5, 0.5, 0.5]}/>
           <meshNormalMaterial />
         </mesh>
       </Canvas>
