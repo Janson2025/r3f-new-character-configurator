@@ -9,7 +9,7 @@ function App() {
             position: [-4, 3, 6]
           }}
         >
-          <color attach="background" args={['#333333']} />
+        <color attach="background" args={['#333333']} />
         <OrbitControls />
         <mesh>
           <boxGeometry args={[0.5, 0.5, 0.5]}/>
